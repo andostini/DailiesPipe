@@ -106,7 +106,7 @@ class Project:
         #Gets the file from the highest priority Volume (sorts alphabetically if identical prority), checks wether online (if not goes to next Volume) and returns its complete Path
         #Index is Index of Clip in self.Library
 
-        clip = self.getCLipFromLibrary(Owner)
+        clip = self.ClipFromLibrary(Owner)
         files = clip['files']
 
         files.sort(key=operator.itemgetter('volumePlaybackPriority'))
@@ -146,8 +146,11 @@ class Project:
 
         return list
 
-    def getCLipFromLibrary(self, Owner):
+    def getClipFromLibrary(self, Owner):
         #get specific clip from Library by Owner
+        if self.Library == None:
+            return False
+
         for clip in self.Library:
             if clip['PK'] == Owner:
                 return clip
@@ -209,15 +212,6 @@ class Project:
                     })
             list.sort(key=operator.itemgetter('sortIndex'))
             return list
-
-
-
-        for x in findSubFolder(RootPK):
-            print(x['name'])
-            for y in x['subFolders']:
-                print('-' + y['name'])
-                for z in y['subFolders']:
-                    print('- -' + z['name'])
 
         c.close()
 

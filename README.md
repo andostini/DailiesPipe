@@ -1,5 +1,6 @@
 # SilverstackAccess
 This is a 3rd party tool reveal a an API for Pomfort's Silverstack and SilverstackLab to make use of its Media Library, ingested media and meta data. 
+This module is not published on Pypi.
 
 ## Basic Functions:
 ### findSilverstackInstance()

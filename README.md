@@ -14,9 +14,10 @@ This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silversta
 ### Start syncing
 - Open Silverstack and DaVinci and create the projects that you want to associate. Existing projects can be used of course.
 - Start the 'dailiespipe' executable
-- Every new version of Silverstack will create a new Silverstack instance. Silverstack Lab will create its own instances. In the first step of the script you have to choose the instance in which you have to created your project in. 
-- Now it will list all the projects in your chosen instance. If you can't find your Silverstack project here, close the terminal window and reopen the 'dailiespipe' executable and try another instance.
-- In the last step the script will let you chose a DaVinci Project. Important: your project must be found in the root of the project manager
+- Every new version of Silverstack will create a new Silverstack instance. Silverstack Lab will create its own instances. In the first step of the script you have to choose the instance in which you have created your project in. 
+- It will now list all the projects in your chosen instance. If you can't find your Silverstack project here, close the terminal window and reopen the 'dailiespipe' executable and try another instance.
+- In the last step the script will let you choose a DaVinci Project. Important: your project must be found in the root of the project manager
+- Your projects will now be synced as long as you have the terminal window running in the background or until you close DaVinci.
 
 ### Things you should now
 - This is a one way road. Your Silverstack project will not be manipulated or edited in any way. It will be just read out.

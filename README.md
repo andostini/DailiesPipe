@@ -7,10 +7,12 @@ This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silversta
 ### Prerequisites
 - This script only works with the paid version of DaVinci Resolve Studio. A version for the free Lite version might be possible in future
 - You need to enable external scripting in DaVinci. Go to 'DaVinci Resolve' -> 'Preferences' (Cmd + ,) -> 'General' and switch 'External scripting usage' to 'Local'.
+- Download the .zip file from the Download folder above and extract it to somewhere on your computer. 
+- Find the file named 'Python' within the folder and right-click open it (only works with right click open). Close the window when it says 'Process completed'
+- Find the file named 'dailiespipe' within the folder and right-click open it (has to be right click opened only the first time you start it.)
 
 ### Start syncing
 - Open Silverstack and DaVinci and create the projects that you want to associate. Existing projects can be used of course.
-- Open the .zip file from the Download folder above and extract it to a place on your computer
 - Start the 'dailiespipe' executable
 - Every new version of Silverstack will create a new Silverstack instance. Silverstack Lab will create its own instances. In the first step of the script you have to choose the instance in which you have to created your project in. 
 - Now it will list all the projects in your chosen instance. If you can't find your Silverstack project here, close the terminal window and reopen the 'dailiespipe' executable and try another instance.

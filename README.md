@@ -1,6 +1,6 @@
 # DailiesPipeCLI
 This is a 3rd Party CLI Tool to realtime sync your Silverstack Library to a DaVinci Studio Project. Developed in my freetime. Use at own risk.
-This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silverstack (Lab) 7.3.1
+This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silverstack and Silverstack Lab 7.3.1
 
 
 ## Quick Start Guide

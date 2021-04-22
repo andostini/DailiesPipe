@@ -21,6 +21,13 @@ This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silversta
 ### Things you should now
 - This is a one way road. Your Silverstack project will not be manipulated or edited in any way. It will be just read out.
 - Should your script crash, usually indicated with a Traceback, please take a screenshot and mail it to me or post it as an issue on Github describing the circumstances
+- Only new folders will be imported into DaVinci. If your folder already exists in DaVinci but is empty it will not be touched
+
+## Roadmap / Future features
+- Create Timeline for every reel
+- Auto sync audio at input
+- Auto apply Lut / Node Tree to clips
+- Auto generate render job with specified render preset
 
 ## DaVinciAccess Documentation:
 

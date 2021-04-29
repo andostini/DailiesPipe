@@ -25,6 +25,8 @@ This is version 0.1alpha and is tested with DaVinci 17.1.1 Build 9 and Silversta
 - Only new folders will be imported into DaVinci. If your folder already exists in DaVinci but is empty it will not be touched
 
 ## Roadmap / Future features
+- History (fast restart of former project links)
+- Restart from beginning command
 - Create Timeline for every reel
 - Auto sync audio at input
 - Auto apply Lut / Node Tree to clips
